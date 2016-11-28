@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Creating a blog with Jekyll
+permalink: 2016-11-02-creating-blog-with-jekyll
 ---
 
 After years of using wordpress I found [Jekyll](https://jekyllrb.com/) and [Github pages](https://pages.github.com/) and I think it is awesome. 
