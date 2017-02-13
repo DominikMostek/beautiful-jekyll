@@ -2,10 +2,12 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"
+ xmlns:webfeeds="http://webfeeds.org/rss/1.0">
   <channel>
     <title>{{ site.title | xml_escape }}</title>
     <description>{{ site.description | xml_escape }}</description>
+	<webfeeds:cover image="https://dummyimage.com/1/000000/000000" />
     <link>{{ site.url }}</link>
     <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
     {% for post in site.posts limit:20 %}
