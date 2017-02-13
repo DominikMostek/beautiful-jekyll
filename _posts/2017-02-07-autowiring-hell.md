@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Autowire hell 
-permalink: 2016-02-07-autowire-hell
+title: Dependency Misinjection
+permalink: 2016-02-07-dependency-misinjection
 ---
 It was after a while I have once again engaged in a discussion about dependency injection in spring and how to handle it in tests. This is not the first time so I am writing my thoughts down to point here in any further conversations.
 
