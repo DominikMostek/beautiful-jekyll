@@ -43,3 +43,6 @@ As you see one bad decision led us not to reverting it but to making other bad d
 Our reply to "I tried to instantiate this class in test and it is a pain and I had to use reflection to set all twenty dependencies" should be "maybe there is something wrong with our code" not "cool idea lets make it a&nbsp;standard".
 
 This is why well designed and clean code matters. Because someone will use it as cornerstone to his work. This snowball effect has been observed [also as social behavior](https://en.wikipedia.org/wiki/Broken_windows_theory).
+
+#### Related articles
+* [Field Dependency Injection Considered Harmful](http://vojtechruzicka.com/field-dependency-injection-considered-harmful/) with more detailed description of injection types 
