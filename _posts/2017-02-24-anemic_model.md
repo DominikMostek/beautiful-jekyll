@@ -2,8 +2,8 @@
 layout: post
 title: Anemic philippic
 permalink: 2017-02-24-anemic-philippic
----
-Sometimes we spend so much time thinking how to do something that we stop thinking if we even [should do it](https://www.youtube.com/watch?v=0Nz8YrCC9X8&t=1m54s). The thing in this article is [Anemic domain model](https://martinfowler.com/bliki/AnemicDomainModel.html).
+--- 
+Sometimes we spend so much time thinking how to do something that we stop thinking if we even [should do it](https://www.youtube.com/watch?v=0Nz8YrCC9X8&t=1m54s). The thing in this article is [Anemic domain model](https://martinfowler.com/bliki/AnemicDomainModel.html). [Philippic](https://en.wikipedia.org/wiki/Philippic) is defined as a *'damning speech'* and in this post I would like to make some bitter comments against anemic model architecture and the code it usually results to.
 
 To my surprise a lot of my peers don't know the term Anemic model. I think the reason for that is that it became defacto standard of writing java&spring code that you don't need a name for it - it is just normal way of doing things. 
 
