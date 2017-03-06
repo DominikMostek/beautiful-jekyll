@@ -19,14 +19,14 @@ Order of the points is random and does not reflect any priorities.
 Your domain model consist of classes that reflects database structure. There is not a single reason why a change in database structure should have any impact to your business code. Habit of having one to one business model to domain class relationship is very restrictive and ties your hands in many decisions.
 
 #### It is the opposite of OO
-In object oriented design we want to bind our data with the code that gives them meaning. In this case we are doing complete opposite. We tear apart code to services and data to entity classes. 
+In object oriented design we want to bind our data with the code that gives them meaning. In this case we are doing complete opposite. We tear apart code to services and data to entity classes.
 
 #### Mutable by default
 All entity objects are by default mutable. I see mutability as [premature optimization](http://wiki.c2.com/?PrematureOptimization) and not something we should base our code on. With entity class mutability comes another issue. You cannot guarantee that the entity is in valid state. Just a simple example. 
 ```
 User admin = new User();
 ```
-Given that user has a mandatory username and email we just constructed completely invalid object. It becomes valid once we set these properties. But once passed to other method, the method cannot know if the object is valid or not. Can our second method call `user.getName().length()` and be sure that it will not produce NPE? Of course not. This leads to two situations. We have possible NPE's everywhere in the code or we have code bloated with null checks. Object should **always** be in valid state. 
+Given that user has a mandatory username and email we just constructed completely invalid object. It becomes valid once we set these properties. But once passed to other method, the method cannot know if the object is valid or not. Can our second method call `user.getName().length()` and be sure that it will not produce NPE? Of course not. This leads to two situations. We have possible NPE's everywhere in the code or we have code bloated with null checks. Object should **always** be in valid state. Code that asumes other object validity is then very fragile in any change in this object.
 
 #### Nesting of entities 
 I will begin with an example
