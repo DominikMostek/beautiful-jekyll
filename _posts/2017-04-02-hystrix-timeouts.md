@@ -3,6 +3,7 @@ layout: post
 title: Handling Hystrix timeouts
 permalink: hystrix-timeouts
 --- 
+<img src="img/hystrix.png" width="200" style="float: right;">
 [Hystrix](https://github.com/Netflix/Hystrix) is a perfect tool for handling communication with remote systems. One of the topics it covers for you is timeouts. But it might not be as straightforward as it may seem.
 
 Before jumping to the main issue I want to discuss a little theory about how Hystrix works.
