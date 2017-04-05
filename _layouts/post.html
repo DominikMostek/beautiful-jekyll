@@ -25,9 +25,19 @@ layout: base
         </div>
       {% endif %}
 
-      {% if page.social-share %}
-        {% include social-share.html %}
-      {% endif %}
+      <br />
+      <div style="text-align: center;">
+        <strong>Did you like my blog?</strong>      <br />
+        <a href="https://twitter.com/DominikMostek">Follow Me on Twitter!</a>
+        <br />
+        And share it on
+        {% if page.social-share %}
+          {% include social-share.html %}
+        {% endif %}  
+
+      </div>
+      <br />
+      
 
       <ul class="pager blog-pager">
         {% if page.previous.url %}
