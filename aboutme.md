@@ -1,16 +1,21 @@
 ---
 layout: page
-title: Dominik Moštěk
+title: About me
 subtitle: 
 ---
 
-My name is Dominik Moštěk. I am passionate developer:
+**Dominik** is a passionate software developer with over ten years of experince in big companies and currently gaining new experience in startup [Zonky](http://zonky.cz). Clean and well designed code is his mantra. In his free time he always learns something new about programming and computer science or gives talks about what he already knows - mainly about TDD and clean code. He also likes traveling around the world with his girlfriend - you can read about them on our [blog](http://napricsvetem.cz) (czech only).   
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+Lookup my [LinkedIn](https://www.linkedin.com/in/dominikmostek/) profile to see me history.
 
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+### Contact me
+You can [email](mailto:mostekdominik@gmail.com) me or find me on [twitter](https://twitter.com/DominikMostek)
+<form action="https://formspree.io/mostekdominik@gmail.com" method="POST" class="form" id="contact-form">
+  <p>Or send me a quick message using the form below:</p>
+  <input type="email" name="_replyto" class="form-control input-lg" placeholder="Email" title="Email">
+  <input type="hidden" name="_subject" value="New submission from dominikmostek.cz">
+  <textarea type="text" name="content" class="form-control input-lg" placeholder="Message" title="Message" required="required" rows="3"></textarea>
+  <input type="text" name="_gotcha" style="display:none">
+  <input type="hidden" name="_next" value="./aboutme?message=Your message was sent successfully, thanks!" />
+  <button type="submit" class="btn btn-lg btn-primary">Submit</button>
+</form>

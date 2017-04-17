@@ -626,3 +626,6 @@ td.gutter {
 #social-share-section {
   margin-bottom: 30px;
 }
+#contact-form .form-control {
+    margin-bottom: 15px;
+}
