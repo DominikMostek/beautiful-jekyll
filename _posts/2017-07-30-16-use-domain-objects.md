@@ -69,6 +69,8 @@ public class DaysPastDue { ... }
 #### Tests
 [I mentioned before]({% post_url 2017-03-06-tdd-intro %}) that when TDDing you should not invent the implementation in the test. How can you achieve that without encapsulating the domain in domain objects? By using a `BigDecimal` in a test you are forcing yourself to use that type in your code and thus tieing your test tightly to an implementation.
 
+#### Refactoring
+Find usage feature now becomes very usefull since you can actualy search where an InterestRate is used. Searching by variable names, such as `double interestRate`, might not be that successful since it depends on well named variables without typos.
 
 #### Performance
 Are you worried about performance of a code that uses custom objects over primitives? Yes it might cause some problems in software in which you are saving milliseconds. That is not the case for most apps. And there is even a chance that your code will perform better. With well structured and designed code, [JVM can perform better analysis](https://wiki.openjdk.java.net/display/HotSpot/PerformanceTechniques) which in turn boosts your performance. And remember to benchmark carefully with [JMH](http://openjdk.java.net/projects/code-tools/jmh/).
