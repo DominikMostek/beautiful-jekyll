@@ -7,7 +7,7 @@ Every code you write has its cost. It is in form of potential error, of time tha
 
 
 ### Readability
-Interace can indeed make your code well readable. It hides all the implementation details and forces you to relate only on its contract. But lets have a look on typical interface in [mainstream spring application](http://dominikmostek.cz/2017-02-24-anemic-philippic).
+Interface can indeed make your code well readable. It hides all the implementation details and forces you to relate only on its contract. But lets have a look on typical interface in [mainstream spring application](http://dominikmostek.cz/2017-02-24-anemic-philippic).
 
 ```java
 public interface CaseService {
@@ -31,7 +31,7 @@ public interface CaseService {
 
 Has creating this interface improved readability of your code? 
 
-**Note #1** if you can't design good class interfaces won't help you. Always stick with [Interface Segregation Principle](http://wiki.c2.com/?InterfaceSegregationPrinciple).
+**Note #1** if you can't design good class, interfaces won't help you. Always stick with [Interface Segregation Principle](http://wiki.c2.com/?InterfaceSegregationPrinciple).
 
 Designing interfaces such this one actually decreases readability for one simple reason. _Ok there are more than one, but one most obvious_. <br/>How do you call class that implements it? It should be something specific about the way how it is implemented. For example `class HttpResource implements Resource`. But what can be specific about implementation of `CaseService`? Perhaps `class IdontKnowWhatIAmDoingCaseService`. 
 
@@ -46,7 +46,7 @@ Not even mentioning that if there would be no interface, only the class, mocking
 Not really true. The size is problem, of course, but most importantly the problem is philosophy behind this kind of interfaces. The very first reason why they have been written, small or large. 
 
 #### Premature abstraction
-Do you automatically create interfaces? Why? I am sure you all of you heard that premature optimization is [root of evil](http://wiki.c2.com/?PrematureOptimization). The idea is that making decisions without enough data leads to wrong decisions. Same applies for abstractions. Without enough experience with modeled domain you can't design good abstractions. This also applies for technical domain not only business domain. When you design your interfaces beforehand and later you find out that they are not very suitable, you have a lot of code to change. And it leads to hacks and tricks in order to fight wrong abstractions.
+Do you automatically create interfaces? Why? I am sure all of you heard that premature optimization is [root of evil](http://wiki.c2.com/?PrematureOptimization). The idea is that making decisions without enough data leads to wrong decisions. Same applies for abstractions. Without enough experience with modeled domain you can't design good abstractions. This also applies for technical domain not only business domain. When you design your interfaces beforehand and later you find out that they are not very suitable, you have a lot of code to change. And it leads to hacks and tricks in order to fight wrong abstractions.
 
 **Note #3** resist the temptation of premature abstractions. Always create implementation first. Create more implementations first. Then abstractions will be much easier to spot and extract. 
 
@@ -60,7 +60,7 @@ Great technique to train this is [Test driven development](http://dominikmostek.
 ### Cargo cults
 It seems to me that in programming community there is a lot of [cargo cults](https://en.wikipedia.org/wiki/Cargo_cult). Making interfaces for everything is one of them. Programmers were taught that interface is good and now they don't even think about it and put it everywhere. But the context is the king here. Sometimes it brings you zero value, maybe even negative in form of extra code to maintain and wrong abstraction which will cause trouble in the future. 
 
-Same principles applies for every piese of your software. Does introducing a layer adds some value **in this particular** case? I might be true in some other case but that does not imply it for any other. 
+Same principles applies for every piece of your software. Does introducing a layer adds some value **in this particular** case? It might be true in some other case but that does not imply it for any other. 
 
 #### Tips
 - Do not enforce interfaces/layers/... where they do not serve any real value. 
