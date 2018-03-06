@@ -108,4 +108,6 @@ Few quotes on topic
 
 Also note the rule four from book [4 Rules of Simple Design](https://martinfowler.com/bliki/BeckDesignRules.html): "Soultion has the fewest possible elements (classes and methods)"
 
+After publishing this post I came across a post from Yegor256 [Speed vs Quality](http://www.yegor256.com/2018/03/06/speed-vs-quality.html). Which basicly says - if some standard quality is met proceed as fast as possible because that is what makes you money. Adding a layer just to fulfill some stupid convention is not adding quality and keeps you from delivering. 
+
 The [layers of hell reference](https://en.wikipedia.org/wiki/Inferno_(Dante)#Nine_circles_of_Hell)
