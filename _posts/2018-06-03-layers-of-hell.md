@@ -104,7 +104,7 @@ Few quotes on topic
 > ~ Alan Key
 
 > It seems that perfection is attained not when there is nothing more to add, but when there is nothing more to remove
-> Antoine de Saint Exupéry
+> ~ Antoine de Saint Exupéry
 
 Also note the rule four from book [4 Rules of Simple Design](https://martinfowler.com/bliki/BeckDesignRules.html): "Soultion has the fewest possible elements (classes and methods)"
 
