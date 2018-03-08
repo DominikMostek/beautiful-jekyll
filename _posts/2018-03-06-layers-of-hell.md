@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Layers of hell
-permalink: 2018-06-03-layers-of-hell
+permalink: 2018-03-06-layers-of-hell
 ---
 
 Before reading this post, please read these two articles [Your coding conventions are hurting you](http://www.carlopescio.com/2011/04/your-coding-conventions-are-hurting-you.html) and [The madness of layered architecture](http://johannesbrodwall.com/2014/07/10/the-madness-of-layered-architecture/). If you understood them and agree with the point, stop reading now. I have nothing to add. Those articles are perfect. The reason I am writing another one is most of the people I work with are still convinced that layers and conventions solves problems better than code that fits the solution best. I have written twice about writing code that does not add any real value, it's just there because programmers are so used to do things one way even if it makes no sense. One is about [anemic model]({% post_url 2017-02-24-anemic_model %}) the second about [interfaces]({% post_url 2017-12-05-on-interface %}).
