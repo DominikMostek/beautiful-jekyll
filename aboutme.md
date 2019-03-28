@@ -4,7 +4,7 @@ title: About me
 subtitle: 
 ---
 
-**Dominik** is a passionate software developer with over ten years of experince in big companies and currently gaining new experience in startup [Zonky](http://zonky.cz). Clean and well designed code is his mantra. In his free time he always learns something new about programming and computer science or gives talks about what he already knows - mainly about TDD and clean code. He also likes traveling around the world with his girlfriend - you can read about them on our [blog](http://napricsvetem.cz) (czech only).   
+**Dominik** is a passionate software developer with over ten years of experince in big companies and currently gaining new experience in startup [Zonky](http://zonky.cz). Clean and well designed code is his mantra. In his free time he always learns something new about programming and computer science or gives talks about what he already knows - mainly about TDD and clean code.   
 
 Lookup my [LinkedIn](https://www.linkedin.com/in/dominikmostek/) profile to see me history.
 
