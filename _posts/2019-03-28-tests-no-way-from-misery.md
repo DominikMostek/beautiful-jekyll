@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tests are not a way out of a misery
+title: Tests are not a way out of misery
 permalink: 2019-04-28-tests-no-way-from-misery
 ---
 
